@@ -1,4 +1,45 @@
 body {
   font-family: Arial;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header {
+  background: #0a192f;
+  color: white;
   text-align: center;
+  padding: 40px;
+}
+
+.profile {
+  width: 120px;
+  border-radius: 50%;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 4px solid #0077b5;
+}
+
+.project:hover {
+  background: #f0f8ff;
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
